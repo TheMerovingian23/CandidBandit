@@ -1,0 +1,32 @@
+{
+
+  "name": "Talent Acquisition Filter",
+
+  "version": "1.0",
+
+  "description": "A Chrome extension that helps talent acquisition professionals filter through candidates easier and more efficiently.",
+
+  "manifest_version": 2,
+
+  "content_scripts": [
+
+    {
+
+      "matches": ["*://*/*"],
+
+      "js": ["contentscript.js"]
+
+    }
+
+  ],
+
+  "background": {
+
+    "scripts": ["background.js"]
+
+  },
+
+  "permissions": ["tabs"]
+
+}
+
