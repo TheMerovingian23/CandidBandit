@@ -1,58 +1,116 @@
-# CandidBandit
-The following is a detailed README.MD that explains the concept of this extension:
 
-Introduction
+# CandidBandit AI-Powered Fraud Detection for Hiring
 
-This Chrome extension helps talent acquisition professionals filter through candidates easier and more efficiently. It does this by providing a number of features, including:
+CandidBandit is a Chrome extension designed to help recruiters and hiring managers identify resume fraud, impersonation, and misrepresented candidate profiles in real time â€” right from your browser.
 
-The ability to search for candidates by keyword, location, and other criteria
+Built by recruiters, for recruiters â€” and soon, for anyone who screens talent online.
 
-The ability to view a candidate's resume and social media profiles
+---
 
-The ability to save candidates for future reference
+## Features
 
-The ability to send candidates messages directly from the extension
+- Detect mismatches between resumes, GitHub, LinkedIn, and other public data
+- Parse and analyze resumes using integrated APIs (Gmail, RChilli, etc.)
+- Flag anomalies using AI and pattern recognition
+- Catch potential impersonators or ghost candidates
+- Designed with privacy and on-device processing in mind
 
-Benefits
+---
 
-This extension can save talent acquisition professionals a significant amount of time and effort. By providing a number of features that make it easier to find and research candidates, this extension can help professionals to quickly identify the best candidates for their open positions.
+## Tech Stack
 
-Proof of Concept
+- TypeScript + React (Chrome Extension)
+- MongoDB Atlas â€“ Metadata & candidate flag storage
+- Amazon S3 â€“ Resume file storage (planned)
+- Pinecone / Weaviate â€“ Optional vector DB for AI similarity (planned)
+- Gmail API â€“ Resume parsing from attachments (MVP)
+- RChilli API â€“ Resume enrichment (planned)
 
-The following is a proof of concept that shows the value of this extension. In this example, we will use the extension to find candidates for a position as a software engineer in the San Francisco Bay Area.
+---
 
-Open the Chrome extension and navigate to the "Search" tab.
+## Getting Started
 
-Enter the following search criteria:
+### Prerequisites
 
-Keyword: software engineer
+- Node.js v16+
+- Yarn or npm
+- Chrome browser
 
-Location: San Francisco Bay Area
+### Installation
 
-Click the "Search" button.
+    git clone https://github.com/TheMerovingian23/CandidBandit.git
+    cd CandidBandit
+    npm install
 
-The extension will return a list of candidates that match the search criteria.
+### Run Locally (Dev Mode)
 
-Click on a candidate's name to view their resume and social media profiles.
+    npm run dev
 
-If you are interested in a candidate, you can save them for future reference or send them a message directly from the extension.
+Then:
+1. Open Chrome and go to chrome://extensions
+2. Enable Developer Mode
+3. Click "Load Unpacked" and select the /dist or /build folder
 
-As you can see, this extension can make it much easier to find and research candidates. By providing a number of features that make it easier to find and research candidates, this extension can help professionals to quickly identify the best candidates for their open positions.
+---
 
-Features
+## APIs & Environment
 
-The following are the features of this extension:
+Create a `.env` file in the root with keys like:
 
-Search: The extension allows you to search for candidates by keyword, location, and other criteria.
+    GMAIL_API_KEY=your_gmail_key_here
+    RCHILLI_USER_KEY=your_rchilli_user_key
+    MONGODB_URI=your_mongo_connection
+    S3_BUCKET_NAME=candidbandit-resumes
 
-View Resumes: The extension allows you to view a candidate's resume directly from the extension.
+You will need access credentials from Gmail or RChilli to use resume parsing APIs.
 
-View Social Media Profiles: The extension allows you to view a candidate's social media profiles directly from the extension.
+---
 
-Save Candidates: The extension allows you to save candidates for future reference.
+---
 
-Send Messages: The extension allows you to send candidates messages directly from the extension.
+## Roadmap
 
-Conclusion
+- [x] Chrome extension with manual resume flagging
+- [x] Resume parsing (PDF/Word)
+- [ ] Gmail API resume scan
+- [ ] LinkedIn profile consistency check
+- [ ] GitHub handle enrichment
+- [ ] Vector similarity for fraud patterns
+- [ ] Recruiter and non-recruiter mode
 
-This Chrome extension can be a valuable tool for talent acquisition professionals. By providing a number of features that make it easier to find and research candidates, this extension can help professionals to quickly identify the best candidates for their open positions.
+---
+
+## Privacy & Compliance
+
+We prioritize privacy:
+- All processing is local unless explicitly shared
+- No resume data is stored without user action
+- We aim to remain CCPA and GDPR aligned from day one
+
+---
+
+## Contributing
+
+We welcome contributions and ideas â€” especially if you've worked in recruiting, fraud detection, or AI!
+
+    git checkout -b feature/your-feature
+    git commit -m "Add your feature"
+    git push origin feature/your-feature
+
+Then open a Pull Request.
+
+---
+
+## Contact
+
+Kofi Tolbert  
+Founder, Young Tiger Galactic LLC  
+Contact via LinkedIn: https://www.linkedin.com/in/kofitolbert
+Kickstarter Launch Page: #coming-soon
+Email:kt@youngtigergalactic.com 
+Phone: 323-532-5602 
+---
+
+## License
+
+MIT License feel free to fork and extend with attribution.
