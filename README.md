@@ -20,9 +20,9 @@ Built by recruiters, for recruiters â€” and soon, for anyone who screens ta
 ## Tech Stack
 
 - TypeScript + React (Chrome Extension)
-- MongoDB Atlas â€“ Metadata & candidate flag storage
+- MongoDB Atlas Metadata & candidate flag storage
 - Amazon S3 Resume file storage (planned)
-- Pinecone / Weaviate â€“ Optional vector DB for AI similarity (planned)
+- Pinecone / Weaviate Optional vector DB for AI similarity (planned)
 - Gmail API  Resume parsing from attachments (MVP)
 - RChilli API Resume enrichment (planned)
 
