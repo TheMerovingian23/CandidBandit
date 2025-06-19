@@ -10,7 +10,7 @@ Built by recruiters, for recruiters â€” and soon, for anyone who screens ta
 ## Features
 
 - Detect mismatches between resumes, GitHub, LinkedIn, and other public data
-- Parse and analyze resumes using integrated APIs (Gmail, RChilli, etc.)
+- Parse and analyze resumes using integrated APIs (Gmail, etc.)
 - Flag anomalies using AI and pattern recognition
 - Catch potential impersonators or ghost candidates
 - Designed with privacy and on-device processing in mind
