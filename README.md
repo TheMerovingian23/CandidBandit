@@ -1,7 +1,7 @@
 
 # CandidBandit AI-Powered Fraud Detection for Hiring
 
-CandidBandit is a Chrome extension designed to help recruiters and hiring managers identify resume fraud, impersonation, and misrepresented candidate profiles in real time â€” right from your browser.
+CandidBandit is a Chrome extension designed to help recruiters and hiring managers identify resume fraud, impersonation, and misrepresented candidate profiles in real time, right from your browser.
 
 Built by recruiters, for hiring teams and independent leaders evaluating talent.
 
