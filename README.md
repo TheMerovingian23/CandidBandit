@@ -3,7 +3,7 @@
 
 CandidBandit is a Chrome extension designed to help recruiters and hiring managers identify resume fraud, impersonation, and misrepresented candidate profiles in real time â€” right from your browser.
 
-Built by recruiters, for recruiters â€” and soon, for anyone who screens talent online.
+Built by recruiters, for hiring teams and independent leaders evaluating talent.
 
 ---
 
@@ -109,6 +109,7 @@ Contact via LinkedIn: https://www.linkedin.com/in/kofitolbert
 Kickstarter Launch Page: #coming-soon
 Email:kt@youngtigergalactic.com 
 Phone: 323-532-5602 
+website: https://candidbandit.lovable.app/
 ---
 
 ## License
